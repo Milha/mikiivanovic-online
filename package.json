@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
+    "preview": "serve out"
   },
   "dependencies": {
     "react": "^19.0.0",
