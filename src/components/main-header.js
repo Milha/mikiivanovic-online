@@ -5,7 +5,7 @@ import classes from "./main-header.module.css";
 
 export default function MainHeader() {
   return (
-    <header>
+    <header className={classes.header}>
       <Link href="/" className={classes.logo}>
         <Image
           src="/images/logo/logo.png"
@@ -14,6 +14,17 @@ export default function MainHeader() {
           height={45}
         />
       </Link>
+
+      <nav className={classes.nav}>
+        <ul>
+          <li>
+            <Link href="/projects">Projekti</Link>
+          </li>
+          <li>
+            <Link href="/testing">Testiranje</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

@@ -1,4 +1,34 @@
+.header {
+  /* background-color: wheat; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo_cont {
+  background-color: wheat;
+  border: 3px wheat;
+  margin-left: auto;
+}
+
+.link_cont {
+  border: 3px wheat;
+  background-color: red;
+}
+
 .logo {
   width: 45px;
   height: 45px;
+  border-radius: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.nav ul li {
+  margin: 1rem;
+  /* padding: 1rem 2rem; */
 }
