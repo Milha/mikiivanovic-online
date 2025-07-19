@@ -1,7 +1,11 @@
 .cont {
-  margin-top: 15rem;
-  display: flex;
-  justify-content: center;
+  padding: 1rem;
+  // margin-top: 15rem;
+
+  .title {
+    padding-left: 2.5rem;
+    color: #f5a8a8;
+  }
 
   .image_cont {
     position: relative;

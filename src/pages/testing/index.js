@@ -1,13 +1,14 @@
-import Image from "next/image";
+// import Image from "next/image";
+import PageNavLink from "@/components/sigle-items/page-nav-link";
 import classes from "./index.module.scss";
+// import ExportedImage from "next-image-export-optimizer";
 
 export default function TestingPage() {
   return (
     <div className={classes.cont}>
+      <h3 className={classes.title}>Stranice testiranja</h3>
+      <PageNavLink />
       {/* <p>Prikaz slike</p> */}
-      <div className={classes.image_cont}>
-        <Image src="/images/flowers/cvece-01.jpg" fill />
-      </div>
     </div>
   );
 }
