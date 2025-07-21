@@ -2,11 +2,6 @@ import { useEffect, useState } from "react";
 import classes from "./images-slideshow.module.scss";
 import Image from "next/image";
 import ExportedImage from "next-image-export-optimizer";
-// import image1 from "/images/flowers/cvece-02.jpg";
-// import image2 from "/images/flowers/cvece-03.jpg";
-// import image3 from "/images/flowers/cvece-04.jpg";
-// import image4 from "/images/flowers/cvece-05.jpg";
-// import image5 from "/images/flowers/cvece-06.jpg";
 
 const images = [
   { image: "/images/flowers/cvece-02.jpg", alt: "Opis prve slike" },
@@ -34,8 +29,7 @@ export default function ImageSladeshow() {
   return (
     <div className={classes.slideshow}>
       <p>Testing</p>
-      {/* <img src="/images/flowers/cvece-01.jpg" alt="Test" /> */}
-      {/* <ExportedImage src="/images/flowers/cvece-02.jpg" fill /> */}
+
       {images.map((image, index) => (
         <Image
           loader={myLoader}
