@@ -28,10 +28,8 @@ export default function ImageSladeshow() {
 
   return (
     <div className={classes.slideshow}>
-      <p>Testing</p>
-
       {images.map((image, index) => (
-        <Image
+        <ExportedImage
           loader={myLoader}
           key={index}
           src={image.image}
@@ -39,6 +37,7 @@ export default function ImageSladeshow() {
           height={600}
           className={index === currentImage ? classes.active : ""}
           alt={image.alt}
+          placeholder="blur"
         />
       ))}
     </div>
