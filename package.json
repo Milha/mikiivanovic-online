@@ -10,12 +10,15 @@
     "preview": "serve out"
   },
   "dependencies": {
-    "next": "15.3.5",
+    "next": "^15.5.4",
     "next-image-export-optimizer": "^1.19.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "sass": "^1.89.2"
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.2",
+    "sass": "^1.89.2",
+    "typescript": "^5.9.3"
   }
 }

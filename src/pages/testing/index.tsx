@@ -1,4 +1,6 @@
 // import Image from "next/image";
+
+// import Reacts from "react";
 import PageNavLink from "@/components/sigle-items/page-nav-link";
 import classes from "./index.module.scss";
 // import ExportedImage from "next-image-export-optimizer";

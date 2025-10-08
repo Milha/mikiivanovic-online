@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./images-slideshow.module.scss";
-import Image from "next/image";
+// import Image from "next/image";
 import ExportedImage from "next-image-export-optimizer";
 
 const images = [
@@ -22,7 +22,7 @@ export default function ImageSladeshow() {
       setCurrentImage((prevIndex) =>
         prevIndex < images.length - 1 ? prevIndex + 1 : 0
       );
-    }, 8000);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
