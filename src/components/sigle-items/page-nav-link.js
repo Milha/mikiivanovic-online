@@ -9,6 +9,7 @@ export default function PageNavLink() {
       <Link href="./testing/image-testing/images-slideshow">
         Na stranu testiranja SlideShow
       </Link>
+      <Link href="/testing/gallery">Galerija</Link>
     </nav>
   );
 }

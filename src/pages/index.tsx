@@ -4,6 +4,7 @@ import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import CardProject from "@/components/card/card-overlay";
+// import CardProject from "@/components/card/card-overlay";
 import PositionCard from "@/components/positioning/card-position";
 
 const geistSans = Geist({
@@ -37,24 +38,28 @@ export default function Home() {
               imageSrc="/images/cards/hrizantema-cvecara-card.jpg"
               description="Projekat radjen u NextJS"
               link="https://hrizantema.rs"
+              tagList={["ReactJS"]}
+            />
+            <CardProject
+              title="sztcr-store - skladiste app"
+              imageSrc="/images/cards/skladiste-card.jpg"
+              description="Projekat radjen u NextJS"
+              link="https://sztcrlaravel-production.up.railway.app"
+              tagList={["React", "NextJs"]}
             />
             <CardProject
               title="Cvecara Hrizantema"
               imageSrc="/images/cards/hrizantema-cvecara-card.jpg"
               description="Projekat radjen u NextJS"
               link="https://hrizantema.rs"
+              tagList={["Laravel", "PHP"]}
             />
             <CardProject
               title="Cvecara Hrizantema"
               imageSrc="/images/cards/hrizantema-cvecara-card.jpg"
               description="Projekat radjen u NextJS"
               link="https://hrizantema.rs"
-            />
-            <CardProject
-              title="Cvecara Hrizantema"
-              imageSrc="/images/cards/hrizantema-cvecara-card.jpg"
-              description="Projekat radjen u NextJS"
-              link="https://hrizantema.rs"
+              tagList={["Laravel", "PHP"]}
             />
           </PositionCard>
         </main>

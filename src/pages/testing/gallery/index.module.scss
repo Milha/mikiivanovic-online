@@ -1,0 +1,14 @@
+.cont {
+  width: 90%;
+  margin: auto;
+  h2 {
+    text-align: center;
+  }
+
+  .galleryCont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3.5rem;
+    padding: 2rem;
+  }
+}
